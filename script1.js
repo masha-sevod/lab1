@@ -81,8 +81,8 @@ else
 }
 
 console.log("Задача №5");
-let number1 = +prompt('Введите первое число');
-let number2= +prompt('Введите второе число');
+let number1 = prompt('Введите первое число');
+let number2= prompt('Введите второе число');
 if (((number1 == 10) || (number2 == 10) || ((number1 + number2) == '10')))   {
     alert("True");}
 else {
@@ -90,7 +90,7 @@ else {
 }
 
 console.log("Задача №6");
-let sum = +prompt("Введи количество овец:");
+let sum = prompt("Введи количество овец:");
 let i = 1;
 let str = '\t';
 while (i <= sum){
